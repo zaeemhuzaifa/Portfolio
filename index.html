@@ -26,7 +26,7 @@
       --cyan: #06b6d4;
       --cyan2: #67e8f9;
       --white: #f0f2ff;
-      --muted: #6b7280;
+      --muted: #bdbfc2;
       --border: rgba(124, 58, 237, 0.18);
       --glass: rgba(14, 15, 28, 0.7);
       --mono: 'Space Mono', monospace;
@@ -293,14 +293,15 @@
     }
 
     .hero-stats {
-      position: absolute;
+      /* position: absolute;
       bottom: 1rem;
       left: 4rem;
-      right: 4rem;
+      right: 4rem; */
       display: flex;
       gap: 3rem;
-      opacity: 0;
+      /* opacity: 0; */
       animation: fadeUp 0.7s 1.3s forwards;
+      margin-top: 2rem;
     }
 
     .stat {
@@ -892,11 +893,11 @@
         max-width: 300px;
       }
 
-      .hero-stats {
+      /* .hero-stats {
         left: 2rem;
         right: 2rem;
         gap: 2rem;
-      }
+      } */
     }
 
     @media (max-width: 600px) {
@@ -904,12 +905,12 @@
         display: none;
       }
 
-      .hero-stats {
+      /* .hero-stats {
         position: relative;
         bottom: auto;
         left: auto;
         margin-top: 3rem;
-      }
+      } */
 
       footer {
         padding: 2rem 1.5rem;
